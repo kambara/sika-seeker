@@ -1,0 +1,34 @@
+body {
+  background-color: #FFF;
+  color: #444;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 120%;
+  font-family: 'Trebuchet MS';
+  color: #66CB00;
+  margin: 0.4em 0.8em;
+}
+
+#deer-alert {
+  font-size: 400%;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  top: 10px;
+  padding: 0.5em 0em;
+  z-index: 1000;
+  color: #FF0000;
+  background-color: #FFEEEE;
+  border: 10px solid #FF0000;
+  text-align: center;
+
+  -moz-box-shadow: 4px 4px 10px #000000;
+  -webkit-box-shadow: 4px 4px 10px #000000;
+
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+}
